@@ -1,10 +1,8 @@
 # Playwright E2E Test Automation Portfolio
 
-[automationexercise.com](https://automationexercise.com) を対象にした、Page Object Model 構成のE2Eテスト自動化サンプルです。手動テストで培ったテスト設計(同値分割・境界値・ネガティブテスト)を、Playwright + TypeScriptで自動化しています。
+[![Playwright Tests](https://github.com/wataru1638/playwright-e2e-portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/wataru1638/playwright-e2e-portfolio/actions/workflows/playwright.yml)
 
-<!-- リポジトリ作成後、README上部にCIバッジを追加してください:
-[![Playwright Tests](https://github.com/<GITHUB_USERNAME>/playwright-e2e-portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/<GITHUB_USERNAME>/playwright-e2e-portfolio/actions/workflows/playwright.yml)
--->
+[automationexercise.com](https://automationexercise.com) を対象にした、Page Object Model 構成のE2Eテスト自動化サンプルです。手動テストで培ったテスト設計(同値分割・境界値・ネガティブテスト)を、Playwright + TypeScriptで自動化しています。
 
 ## この構成のポイント
 
