@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { ProductsPage } from '../pages/ProductsPage';
+import { ProductsPage } from '../../pages/ProductsPage';
 
 // Maps to official Test Case 9: https://automationexercise.com/test_cases#collapse9
 test.describe('Product search', () => {

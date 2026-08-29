@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { CartPage } from '../pages/CartPage';
-import { uniqueEmail } from '../utils/testData';
+import { HomePage } from '../../pages/HomePage';
+import { CartPage } from '../../pages/CartPage';
+import { uniqueEmail } from '../../utils/testData';
 
 // Maps to official Test Case 10: https://automationexercise.com/test_cases#collapse10
 test('TC10: subscribing from the home page shows a success message', async ({ page }) => {

@@ -1,16 +1,17 @@
 {
   "name": "playwright-e2e-portfolio",
   "version": "1.0.0",
-  "description": "Playwright E2E test automation portfolio for automationexercise.com, built with the Page Object Model.",
+  "description": "Playwright E2E and API test automation portfolio for automationexercise.com, built with the Page Object Model.",
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:chromium": "playwright test --project=chromium",
+    "test:api": "playwright test --project=api",
     "test:ui": "playwright test --ui",
     "report": "playwright show-report"
   },
-  "keywords": ["playwright", "e2e", "qa", "test-automation"],
+  "keywords": ["playwright", "e2e", "api-testing", "qa", "test-automation"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",

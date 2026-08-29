@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { uniqueEmail } from '../utils/testData';
+import { LoginPage } from '../../pages/LoginPage';
+import { uniqueEmail } from '../../utils/testData';
 
 // Maps to official Test Case 3: https://automationexercise.com/test_cases#collapse3
 test.describe('Login', () => {

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { ProductsPage } from '../pages/ProductsPage';
-import { CartPage } from '../pages/CartPage';
+import { ProductsPage } from '../../pages/ProductsPage';
+import { CartPage } from '../../pages/CartPage';
 
 const BLUE_TOP = { id: 1, name: 'Blue Top', unitPrice: 500 };
 const MEN_TSHIRT = { id: 2, name: 'Men Tshirt', unitPrice: 400 };
